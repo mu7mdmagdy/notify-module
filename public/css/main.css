@@ -1,0 +1,29 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.notify-icon{
+    cursor: pointer;
+    position: relative;
+    border: 2px outset darkred;
+    padding: 5px 10px;
+    border-radius: 50%;
+
+}
+.notify-icon.active{
+    border-color: yellowgreen;
+    color: yellowgreen;
+    animation: changeColor 1s;
+    animation-iteration-count: infinite;
+}
+.notify-icon span.notify-count{
+    position: absolute;
+    left: -10px;
+    top: 10px;
+}
+
+@keyframes changeColor {
+    from {color: red; border-color: yellowgreen;}
+    to {color: yellowgreen; border-color: red;}
+}
+
