@@ -15,7 +15,7 @@ $('#notfiyForm').ajaxForm({url: '/push', type: 'post', resetForm: true});
 // Enable pusher logging - don't include this in production
 Pusher.logToConsole = true;
 
-var pusher = new Pusher('ea3504e29e1295ef8840', {
+var pusher = new Pusher('--app-key--', {
     cluster: 'mt1'
 });
 
