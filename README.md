@@ -6,7 +6,7 @@
 
 ## About Noftiy Module
 
-This module to organize the notification process in real time without need to reload page, using PHP language with Laravel framework and Pusher. The UI is designed simple and easy to use because the main purpose of the module is to learn sending notifications using Laravel Events and Laravel Broadcast that support Pusher ( buit-in )
+This module to organize the notification process in real time without need to reload page, using PHP language with Laravel framework and Pusher. The UI is designed simple and easy to use because the main purpose of the module is to learn sending notifications using Laravel Events and Laravel Broadcast that support Pusher ( built-in )
 
 ## Tools used in Ui
 
