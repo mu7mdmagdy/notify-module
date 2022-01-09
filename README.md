@@ -30,6 +30,7 @@ This module to organize the notification process in real time without need to re
 ## Demo
 
 ![Demo](demo.gif?raw=true)
+- [Click here for live demo](https://notify-module.mohamed-magdy.com/)
 
 
 ## Features
